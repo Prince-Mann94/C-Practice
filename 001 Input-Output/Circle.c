@@ -1,6 +1,4 @@
 //Write a program to calculate perimeter of rectangle.
-//Author : Prince Mann
-
 #include<stdio.h>
 int main(){
     float radius;
