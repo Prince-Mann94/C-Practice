@@ -4,9 +4,6 @@ int main(){
     int x1,y1;
     int x2,y2;
     int x3,y3;
-    int slope1;
-    int slope2;
-
     printf("Enter first points(x1,y1) : ");
     scanf("%d %d",&x1,&y1);
 
@@ -19,6 +16,7 @@ int main(){
     if((x2 - x1)*(y3 - y1) == (y2 - y1)*(x3 - x1)){
         printf("collinear");
     }else{
-        printf("not colliear");
+        printf("not collinear");
     }
+
 }
